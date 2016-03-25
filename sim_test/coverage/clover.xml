@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1458786305007" clover="3.2.0">
+	<project timestamp="1458786305007"  name="All Files" >
+		<metrics statements="17"  coveredstatements="14"  conditionals="37"  coveredconditionals="23"  methods="16"  coveredmethods="13"  elements="70"  coveredelements="50"  complexity="0"  packages="1"  files="3"  classes="3"  loc="63"  ncloc="63" />
+		<package name="sim_test" >
+			<metrics statements="17"  coveredstatements="14"  conditionals="37"  coveredconditionals="23"  methods="16"  coveredmethods="13" />
+			<file name="CheckboxWithLabel.js"  path="/Users/GuodongLi/Documents/jest_test/sim_test/CheckboxWithLabel.js" >
+				<metrics statements="8"  coveredstatements="8"  conditionals="33"  coveredconditionals="20"  methods="11"  coveredmethods="11" />
+				<line num="1"  count="2"  type="cond"  truecount="18"  falsecount="13" />
+				<line num="3"  count="1"  type="stmt" />
+				<line num="5"  count="1"  type="stmt" />
+				<line num="7"  count="1"  type="stmt" />
+				<line num="11"  count="1"  type="stmt" />
+				<line num="15"  count="1"  type="stmt" />
+				<line num="19"  count="2"  type="stmt" />
+				<line num="26"  count="1"  type="cond"  truecount="2"  falsecount="0" />
+			</file>
+			<file name="node.js.jsx"  path="/Users/GuodongLi/Documents/jest_test/sim_test/node.js.jsx" >
+				<metrics statements="6"  coveredstatements="3"  conditionals="4"  coveredconditionals="3"  methods="4"  coveredmethods="1" />
+				<line num="2"  count="1"  type="cond"  truecount="3"  falsecount="1" />
+				<line num="4"  count="1"  type="stmt" />
+				<line num="11"  count="0"  type="stmt" />
+				<line num="14"  count="0"  type="stmt" />
+				<line num="18"  count="0"  type="stmt" />
+				<line num="33"  count="1"  type="stmt" />
+			</file>
+			<file name="sum.js"  path="/Users/GuodongLi/Documents/jest_test/sim_test/sum.js" >
+				<metrics statements="3"  coveredstatements="3"  conditionals="0"  coveredconditionals="0"  methods="1"  coveredmethods="1" />
+				<line num="1"  count="1"  type="stmt" />
+				<line num="2"  count="2"  type="stmt" />
+				<line num="4"  count="2"  type="stmt" />
+			</file>
+		</package>
+	</project>
+</coverage>

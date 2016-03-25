@@ -1,0 +1,37 @@
+{
+  "name": "jest_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sum.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "testFileExtensions": ["es6", "js"],
+    "moduleFileExtensions": ["js", "json", "es6"],
+    "unmockedModulePathPatterns": [
+      "react",
+      "react-addons-test-utils",
+      "react-dom"
+    ]
+  },
+  "babel": {
+    "presets": ["es2015", "react"]
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-jest": "^9.0.3",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "babel-polyfill": "^6.7.4",
+    "jest-cli": "^0.9.2",
+    "react-addons-test-utils": "~0.14.0"
+  },
+  "dependencies": {
+    "react": "~0.14.0",
+    "react-dom": "~0.14.0"
+  }
+}
