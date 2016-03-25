@@ -10,6 +10,7 @@ class Label extends React.Component {
   }
 }
 
+
 Label.propTypes = {
   label: React.PropTypes.string
 };
